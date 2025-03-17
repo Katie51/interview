@@ -1,9 +1,9 @@
 {
-    "compilerOptions": {
-      "target": "ESNext",
-      "module": "CommonJS",
-      "lib": ["ESNext"],
-      "types": ["node", "playwright"]
-    }
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": ["ESNext", "DOM"],
+    "types": ["node", "playwright"],
+    "outDir": "./dist"   
   }
-  
+}
